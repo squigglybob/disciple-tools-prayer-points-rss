@@ -61,6 +61,8 @@ class Disciple_Tools_Prayer_Points_RSS {
     private function __construct() {
         require_once( 'functions.php' );
 
+        require_once( 'feed/custom-feed.php');
+
         $is_rest = dt_is_rest();
         /**
          * @todo Decide if you want to use the REST API example
